@@ -19,9 +19,9 @@ import matplotlib.pyplot as plt
 # path_to_program = lib_programname.get_path_executed_script()
 
 
-project_name = 'TC Prologue Decode'
-project_prefix = 'TC-PD'
-"""# Derive Project Directories xyz"""
+project_name = 'NGHB-Nucleus'
+project_prefix = 'NGHB-Nucleus'
+"""# Derive Project Directories"""
 
 system_dir = os.getcwd()
 root_dir = str(Path(system_dir).parents[1]) + '/'
