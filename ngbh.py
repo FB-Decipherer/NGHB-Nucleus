@@ -15,10 +15,6 @@ import pandas as pd
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 
-# import  lib_programname
-# path_to_program = lib_programname.get_path_executed_script()
-
-
 project_name = 'TC Prologue Decode'
 project_prefix = 'TC-PD'
 """# Derive Project Directories xyz"""
