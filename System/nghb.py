@@ -87,9 +87,6 @@ img1 = mpimg.imread(target_file_path)
 # plt.imshow(img1)
 
 output_path_1 = outputs_dir + 'Output' + '/' + target_file_name
-if not os.path.exists(output_path_1):
-    bp = output_path_1
-
 outputs_arc_path1 = shutil.copyfile(target_file_path, output_path_1)  # transfer function
 
 # --------------
@@ -107,9 +104,6 @@ img2 = mpimg.imread(template_file_path)
 # plt.imshow(img2)
 
 output_path_2 = outputs_dir + 'Output' + '/' + template_file_name
-if not os.path.exists(output_path_2):
-    bp = output_path_2
-
 outputs_arc_path2 = shutil.copyfile(template_file_path, output_path_2)  # sample 'transfer function'
 
 # --------------------
@@ -121,7 +115,7 @@ axarr[1].imshow(img2)
 # --------------------
 
 # Create and display a FileChooser widget
-fc1 = FileChooser(templates_dir)
+#fc1 = FileChooser(templates_dir)
 
 # display(fc1)
 # -------------------
@@ -222,10 +216,10 @@ def zip_dir(dirpath, zippath):
 src_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/System/tc_prologue_decode_v1.py'
 dst_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/Archive/p1.py'
 
-cmd = "ls -%s -%s" % (src_path, dst_path)
+#cmd = "ls -%s -%s" % (src_path, dst_path)
 
 # os.system('cp src_path dst_path')
-home_dir = os.system(cmd)
+# home_dir = os.system(cmd)
 
 # shutil.copy(__file__, dst_path)
 
