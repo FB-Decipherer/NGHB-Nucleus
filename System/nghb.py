@@ -216,11 +216,4 @@ def zip_dir(dirpath, zippath):
 src_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/System/tc_prologue_decode_v1.py'
 dst_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/Archive/p1.py'
 
-#cmd = "ls -%s -%s" % (src_path, dst_path)
 
-# os.system('cp src_path dst_path')
-# home_dir = os.system(cmd)
-
-# shutil.copy(__file__, dst_path)
-
-# shutil.copytree(src_path, dst_path )
