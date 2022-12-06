@@ -215,4 +215,4 @@ def zip_dir(dirpath, zippath):
 src_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/System/tc_prologue_decode_v1.py'
 dst_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/Archive/p1.py'
 
-
+dst_path = 'zzz'
