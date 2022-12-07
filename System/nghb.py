@@ -218,10 +218,10 @@ from git import Repo
 
 
 it = 0
-os.system("git add --all")
-os.system("git commit -m 'sssss' ")
+it = os.system("git add --all")
+it = os.system("git commit -m 'sssss' ")
 
 
+it = 1
 
-#it = 1
 
