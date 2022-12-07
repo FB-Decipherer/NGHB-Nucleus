@@ -218,7 +218,7 @@ from git import Repo
 #wertwertwer
 
 
-it = 5
+it = 6
 os.system("git add --all")
 print(os.system("git status"))
 
