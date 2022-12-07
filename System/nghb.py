@@ -223,7 +223,8 @@ os.system("git add --all")
 print(os.system("git status"))
 
 os.system("git commit -m 'sssss' ")
-os.system("git push origin main")
+os.system("git push ")
+
 
 
 it = 1
