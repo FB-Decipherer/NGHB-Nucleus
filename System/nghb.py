@@ -218,9 +218,12 @@ from git import Repo
 #wertwertwer
 
 
-it = 0
-it = os.system("git add --all")
-it = os.system("git commit -m 'sssss' ")
+it = 5
+os.system("git add --all")
+print(os.system("git status"))
+
+os.system("git commit -m 'sssss' ")
+os.system("git  push ")
 
 
 it = 1
