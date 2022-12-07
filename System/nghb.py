@@ -218,8 +218,8 @@ from git import Repo
 #wertwertwer
 
 
-it = 6
-#os.system("git add --all")
+it = 67
+os.system("git add --all")
 #print(os.system("git status"))
 
 #os.system("git commit -m 'tttttt' ")
