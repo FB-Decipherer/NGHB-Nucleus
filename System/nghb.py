@@ -210,9 +210,18 @@ def zip_dir(dirpath, zippath):
     fzip.close()
 
 
+from git.repo import Repo
+
+from git import Repo
+
+#repo = Repo(os.getcwd())
 
 
-src_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/System/tc_prologue_decode_v1.py'
-dst_path = '/Users/gorehambury/DataspellProjects/Prologue Decode/TC Prologue Decode/Archive/p1.py'
+it = 0
+os.system("git add --all")
+os.system("git commit -m 'sssss' ")
 
-dst_path = '222'
+
+
+#it = 1
+
