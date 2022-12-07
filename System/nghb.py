@@ -219,10 +219,10 @@ from git import Repo
 
 
 it = 6
-os.system("git add --all")
-print(os.system("git status"))
+#os.system("git add --all")
+#print(os.system("git status"))
 
-os.system("git commit -m 'tttttt' ")
+#os.system("git commit -m 'tttttt' ")
 #os.system("git push ")
 
 
