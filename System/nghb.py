@@ -223,10 +223,12 @@ os.system("git add --all")
 print(os.system("git status"))
 
 os.system("git commit -m 'sssss' ")
-os.system("git push ")
+#os.system("git push ")
 
 
 
 it = 1
 
 
+
+#%%
