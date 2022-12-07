@@ -215,6 +215,7 @@ from git.repo import Repo
 from git import Repo
 
 #repo = Repo(os.getcwd())
+#wertwertwer
 
 
 it = 0
